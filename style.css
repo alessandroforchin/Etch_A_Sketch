@@ -1,0 +1,35 @@
+#container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 30px;
+}
+
+#grid-container {
+    display: grid;
+}
+
+.square-div {
+    border: 1px solid rgb(68, 68, 68);
+    background-color: rgb(230, 230, 230);
+}
+
+.square-div:hover {
+    background-color: brown;
+}
+
+.size-btn {
+    padding: 10px;
+}
+
+.resize-section {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+button {
+    margin-right: 10px;
+}
